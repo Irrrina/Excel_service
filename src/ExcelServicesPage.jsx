@@ -33,6 +33,8 @@ export default function ExcelServicesPage() {
           style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}
         >
           <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_next" value="https://www.excelservice.ru/success.html" />
+
           <input name="name" placeholder="Ваше имя" required />
           <input name="contact" placeholder="Email или телефон" required />
           <input name="message" placeholder="Кратко опишите задачу" required />
